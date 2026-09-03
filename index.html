@@ -1,0 +1,586 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>BeamMatter - Neutron Cross Section Plotter</title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+</head>
+
+
+<body>
+
+  <!-- ============================================================
+       Header
+  ============================================================= -->
+
+  <header class="top-header">
+
+    <div class="header-inner">
+
+      <div class="header-title">
+
+        <h1>BeamMatter</h1>
+
+        <p>
+          Neutron Cross Section Plotter
+        </p>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+
+  <!-- ============================================================
+       Main page
+  ============================================================= -->
+
+  <main class="page-container">
+
+
+    <!-- ==========================================================
+         Calculation settings
+    =========================================================== -->
+
+    <section>
+
+      <h2>Calculation settings</h2>
+
+      <p>
+        Define the neutron wavelength range and sample temperature.
+      </p>
+
+
+      <div class="settings-grid">
+
+
+        <!-- Wavelength minimum -->
+
+        <div class="input-group">
+
+          <label for="minWavelength">
+            Minimum wavelength [Å]
+          </label>
+
+          <input
+            id="minWavelength"
+            type="number"
+            min="0.001"
+            step="any"
+            value="0.1"
+          >
+
+        </div>
+
+
+        <!-- Wavelength maximum -->
+
+        <div class="input-group">
+
+          <label for="maxWavelength">
+            Maximum wavelength [Å]
+          </label>
+
+          <input
+            id="maxWavelength"
+            type="number"
+            min="0.001"
+            step="any"
+            value="10"
+          >
+
+        </div>
+
+
+        <!-- Number points -->
+
+        <div class="input-group">
+
+          <label for="numPoints">
+            Calculation points
+          </label>
+
+          <input
+            id="numPoints"
+            type="number"
+            min="2"
+            max="20000"
+            step="1"
+            value="1000"
+          >
+
+        </div>
+
+
+        <!-- Temperature -->
+
+        <div class="input-group">
+
+          <label for="temperature">
+            Temperature [K]
+          </label>
+
+          <input
+            id="temperature"
+            type="number"
+            min="0.01"
+            step="any"
+            value="293"
+          >
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ==========================================================
+         Materials
+    =========================================================== -->
+
+    <section>
+
+      <h2>Materials</h2>
+
+      <p>
+        Select one or more materials to compare.
+      </p>
+
+
+      <div class="table-wrapper">
+
+        <table id="materialTable">
+
+          <thead>
+
+            <tr>
+
+              <th>#</th>
+
+              <th>Remove</th>
+
+              <th>Material</th>
+
+              <th>
+                Density override
+                <br>
+                [g/cm³]
+              </th>
+
+            </tr>
+
+          </thead>
+
+
+          <tbody>
+          </tbody>
+
+        </table>
+
+      </div>
+
+
+      <div class="button-row">
+
+        <button
+          id="addMaterialBtn"
+          type="button"
+        >
+          Add material
+        </button>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ==========================================================
+         Cross section components
+    =========================================================== -->
+
+    <section>
+
+      <h2>Cross section components</h2>
+
+      <p>
+        Select which neutron cross sections should be shown.
+      </p>
+
+
+      <div class="component-grid">
+
+
+        <label class="component-option">
+
+          <input
+            id="componentTotal"
+            type="checkbox"
+            value="total"
+            checked
+          >
+
+          <span>Total</span>
+
+        </label>
+
+
+        <label class="component-option">
+
+          <input
+            id="componentCoherentElastic"
+            type="checkbox"
+            value="coherent_elastic"
+            checked
+          >
+
+          <span>
+            Coherent elastic
+          </span>
+
+        </label>
+
+
+        <label class="component-option">
+
+          <input
+            id="componentIncoherentElastic"
+            type="checkbox"
+            value="incoherent_elastic"
+          >
+
+          <span>
+            Incoherent elastic
+          </span>
+
+        </label>
+
+
+        <label class="component-option">
+
+          <input
+            id="componentCoherentInelastic"
+            type="checkbox"
+            value="coherent_inelastic"
+          >
+
+          <span>
+            Coherent inelastic
+          </span>
+
+        </label>
+
+
+        <label class="component-option">
+
+          <input
+            id="componentIncoherentInelastic"
+            type="checkbox"
+            value="incoherent_inelastic"
+          >
+
+          <span>
+            Incoherent inelastic
+          </span>
+
+        </label>
+
+
+        <label class="component-option">
+
+          <input
+            id="componentTotalInelastic"
+            type="checkbox"
+            value="total_inelastic"
+          >
+
+          <span>
+            Total inelastic
+          </span>
+
+        </label>
+
+
+        <label class="component-option">
+
+          <input
+            id="componentAbsorption"
+            type="checkbox"
+            value="absorption"
+            checked
+          >
+
+          <span>
+            Absorption
+          </span>
+
+        </label>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ==========================================================
+         Main actions
+    =========================================================== -->
+
+    <section class="control-section">
+
+      <div class="main-controls">
+
+
+        <button
+          id="calculateBtn"
+          class="primary-button"
+          type="button"
+        >
+          Calculate / Plot
+        </button>
+
+
+        <button
+          id="exportCsvBtn"
+          type="button"
+          disabled
+        >
+          Export CSV
+        </button>
+
+
+        <span
+          id="statusText"
+          class="status-text"
+        >
+          Waiting for user input
+        </span>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ==========================================================
+         Main plot
+    =========================================================== -->
+
+    <section>
+
+      <div class="plot-header">
+
+        <div>
+
+          <h2>
+            Neutron cross sections
+          </h2>
+
+        </div>
+
+
+        <div class="axis-selector">
+
+          <span>
+            X axis:
+          </span>
+
+
+          <label>
+
+            <input
+              type="radio"
+              name="xAxis"
+              value="wavelength"
+              checked
+            >
+
+            Wavelength
+
+          </label>
+
+
+          <label>
+
+            <input
+              type="radio"
+              name="xAxis"
+              value="energy"
+            >
+
+            Energy
+
+          </label>
+
+        </div>
+
+      </div>
+
+
+      <div class="plot-wrapper">
+
+        <div
+          id="crossSectionPlot"
+          class="plot"
+        >
+        </div>
+
+      </div>
+
+
+      <p
+        id="plotMessage"
+        class="plot-message"
+      >
+        Select materials and press Calculate / Plot.
+      </p>
+
+    </section>
+
+
+
+    <!-- ==========================================================
+         Material calculation summary
+    =========================================================== -->
+
+    <section>
+
+      <h2>
+        Material properties
+      </h2>
+
+      <p>
+        Values calculated from the material definition used by the
+        neutron cross section engine.
+      </p>
+
+
+      <div class="table-wrapper">
+
+        <table id="propertiesTable">
+
+          <thead>
+
+            <tr>
+
+              <th>
+                Material
+              </th>
+
+              <th>
+                Atoms /
+                <br>
+                unit cell
+              </th>
+
+              <th>
+                Cell volume
+                <br>
+                [Å³]
+              </th>
+
+              <th>
+                Cell mass
+                <br>
+                [g/mol]
+              </th>
+
+              <th>
+                Density
+                <br>
+                [g/cm³]
+              </th>
+
+              <th>
+                Avg. coherent
+                <br>
+                XS [barn]
+              </th>
+
+              <th>
+                Avg. incoherent
+                <br>
+                XS [barn]
+              </th>
+
+            </tr>
+
+          </thead>
+
+
+          <tbody>
+
+            <tr class="placeholder-row">
+
+              <td colspan="7">
+
+                No calculation performed yet.
+
+              </td>
+
+            </tr>
+
+          </tbody>
+
+        </table>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ==========================================================
+         Footer
+    =========================================================== -->
+
+    <footer>
+
+      <p>
+        BeamMatter — neutron cross section calculation and plotting tool
+      </p>
+
+    </footer>
+
+
+  </main>
+
+
+
+  <!-- ============================================================
+       Plotly
+  ============================================================= -->
+
+  <script
+    src="https://cdn.plot.ly/plotly-2.35.2.min.js"
+  ></script>
+
+
+  <!-- ============================================================
+       Application
+  ============================================================= -->
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>

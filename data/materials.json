@@ -1,0 +1,5200 @@
+{
+  "schema_version": 2,
+  "source": "NXSPlotter bundled .nxs library; symmetry positions expanded with bundled libnxs/SGInfo",
+  "materials": [
+    {
+      "id": "Ac",
+      "name": "Actinium",
+      "formula": "Ac",
+      "category": "element",
+      "source_file": "nxsElements/actinium.nxs",
+      "space_group": "225",
+      "lattice": {
+        "a": 5.67,
+        "b": 5.67,
+        "c": 5.67,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Ac",
+          "b_coherent_fm": 0.0,
+          "sigma_incoherent_barn": 0.0,
+          "sigma_absorption_2200_barn": 0.0,
+          "molar_mass_g_mol": 227.0,
+          "debye_temperature_k": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Al",
+      "name": "Aluminum",
+      "formula": "Al",
+      "category": "element",
+      "source_file": "nxsElements/aluminum.nxs",
+      "space_group": "225",
+      "lattice": {
+        "a": 4.0495,
+        "b": 4.0495,
+        "c": 4.0495,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Al",
+          "b_coherent_fm": 3.449,
+          "sigma_incoherent_barn": 0.0082,
+          "sigma_absorption_2200_barn": 0.231,
+          "molar_mass_g_mol": 26.9815,
+          "debye_temperature_k": 433.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Am",
+      "name": "Americium",
+      "formula": "Am",
+      "category": "element",
+      "source_file": "nxsElements/americium.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 3.4681,
+        "b": 3.4681,
+        "c": 11.241,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Am",
+          "b_coherent_fm": 8.3,
+          "sigma_incoherent_barn": 0.3,
+          "sigma_absorption_2200_barn": 75.3,
+          "molar_mass_g_mol": 243.0,
+          "debye_temperature_k": 121.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "Sb",
+      "name": "Antimony",
+      "formula": "Sb",
+      "category": "element",
+      "source_file": "nxsElements/antimony.nxs",
+      "space_group": "166",
+      "lattice": {
+        "a": 4.307,
+        "b": 4.307,
+        "c": 11.273,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Sb",
+          "b_coherent_fm": 5.57,
+          "sigma_incoherent_barn": 0.007,
+          "sigma_absorption_2200_barn": 4.91,
+          "molar_mass_g_mol": 121.757,
+          "debye_temperature_k": 220.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.666666666666667,
+              0.333333333333333,
+              0.333333333333333
+            ],
+            [
+              0.333333333333333,
+              0.666666666666667,
+              0.666666666666667
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 5
+    },
+    {
+      "id": "Ar",
+      "name": "Argon",
+      "formula": "Ar",
+      "category": "element",
+      "source_file": "nxsElements/argon.nxs",
+      "space_group": "225",
+      "lattice": {
+        "a": 5.256,
+        "b": 5.256,
+        "c": 5.256,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Ar",
+          "b_coherent_fm": 1.909,
+          "sigma_incoherent_barn": 0.225,
+          "sigma_absorption_2200_barn": 0.675,
+          "molar_mass_g_mol": 39.948,
+          "debye_temperature_k": 92.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "As",
+      "name": "Arsenic",
+      "formula": "As",
+      "category": "element",
+      "source_file": "nxsElements/arsenic.nxs",
+      "space_group": "166",
+      "lattice": {
+        "a": 3.7598,
+        "b": 3.7598,
+        "c": 10.5475,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "As",
+          "b_coherent_fm": 6.58,
+          "sigma_incoherent_barn": 0.06,
+          "sigma_absorption_2200_barn": 4.5,
+          "molar_mass_g_mol": 74.9216,
+          "debye_temperature_k": 282.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.666666666666667,
+              0.333333333333333,
+              0.333333333333333
+            ],
+            [
+              0.333333333333333,
+              0.666666666666667,
+              0.666666666666667
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 5
+    },
+    {
+      "id": "At",
+      "name": "Astatine",
+      "formula": "At",
+      "category": "element",
+      "source_file": "nxsElements/astatine.nxs",
+      "space_group": "NaN",
+      "lattice": {
+        "a": NaN,
+        "b": NaN,
+        "c": NaN,
+        "alpha": NaN,
+        "beta": NaN,
+        "gamma": NaN
+      },
+      "atoms": [
+        {
+          "label": "At",
+          "b_coherent_fm": 0.0,
+          "sigma_incoherent_barn": 0.0,
+          "sigma_absorption_2200_barn": 0.0,
+          "molar_mass_g_mol": 210.0,
+          "debye_temperature_k": 210.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": []
+        }
+      ],
+      "crystal_system_nxs": 0
+    },
+    {
+      "id": "Ba",
+      "name": "Barium",
+      "formula": "Ba",
+      "category": "element",
+      "source_file": "nxsElements/barium.nxs",
+      "space_group": "229",
+      "lattice": {
+        "a": 5.028,
+        "b": 5.028,
+        "c": 5.028,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Ba",
+          "b_coherent_fm": 5.07,
+          "sigma_incoherent_barn": 0.15,
+          "sigma_absorption_2200_barn": 1.1,
+          "molar_mass_g_mol": 137.33,
+          "debye_temperature_k": 111.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Be",
+      "name": "Beryllium",
+      "formula": "Be",
+      "category": "element",
+      "source_file": "nxsElements/beryllium.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 2.2858,
+        "b": 2.2858,
+        "c": 3.5843,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Be",
+          "b_coherent_fm": 7.79,
+          "sigma_incoherent_barn": 0.0018,
+          "sigma_absorption_2200_barn": 0.0076,
+          "molar_mass_g_mol": 9.0122,
+          "debye_temperature_k": 1481.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "Bi",
+      "name": "Bismuth",
+      "formula": "Bi",
+      "category": "element",
+      "source_file": "nxsElements/bismuth.nxs",
+      "space_group": "12",
+      "lattice": {
+        "a": 6.674,
+        "b": 6.117,
+        "c": 3.304,
+        "alpha": 90.0,
+        "beta": 110.3,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Bi",
+          "b_coherent_fm": 8.532,
+          "sigma_incoherent_barn": 0.0084,
+          "sigma_absorption_2200_barn": 0.0338,
+          "molar_mass_g_mol": 208.9804,
+          "debye_temperature_k": 120.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 2
+    },
+    {
+      "id": "B",
+      "name": "Boron",
+      "formula": "B",
+      "category": "element",
+      "source_file": "nxsElements/boron.nxs",
+      "space_group": "166",
+      "lattice": {
+        "a": 5.06,
+        "b": 5.06,
+        "c": 5.06,
+        "alpha": 58.1,
+        "beta": 58.1,
+        "gamma": 58.1
+      },
+      "atoms": [
+        {
+          "label": "B",
+          "b_coherent_fm": 5.3,
+          "sigma_incoherent_barn": 1.7,
+          "sigma_absorption_2200_barn": 767.0,
+          "molar_mass_g_mol": 10.811,
+          "debye_temperature_k": 1480.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.666666666666667,
+              0.333333333333333,
+              0.333333333333333
+            ],
+            [
+              0.333333333333333,
+              0.666666666666667,
+              0.666666666666667
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 5
+    },
+    {
+      "id": "Br",
+      "name": "Bromine",
+      "formula": "Br",
+      "category": "element",
+      "source_file": "nxsElements/bromine.nxs",
+      "space_group": "64",
+      "lattice": {
+        "a": 6.7265,
+        "b": 4.6451,
+        "c": 8.7023,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Br",
+          "b_coherent_fm": 6.795,
+          "sigma_incoherent_barn": 0.1,
+          "sigma_absorption_2200_barn": 6.9,
+          "molar_mass_g_mol": 79.904,
+          "debye_temperature_k": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 3
+    },
+    {
+      "id": "Cd",
+      "name": "Cadmium",
+      "formula": "Cd",
+      "category": "element",
+      "source_file": "nxsElements/cadmium.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 2.9794,
+        "b": 2.9794,
+        "c": 5.6186,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Cd",
+          "b_coherent_fm": 4.87,
+          "sigma_incoherent_barn": 3.46,
+          "sigma_absorption_2200_barn": 2520.0,
+          "molar_mass_g_mol": 112.41,
+          "debye_temperature_k": 210.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "Ca",
+      "name": "Calcium",
+      "formula": "Ca",
+      "category": "element",
+      "source_file": "nxsElements/calcium.nxs",
+      "space_group": "225",
+      "lattice": {
+        "a": 5.5884,
+        "b": 5.5884,
+        "c": 5.5884,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Ca",
+          "b_coherent_fm": 4.7,
+          "sigma_incoherent_barn": 0.05,
+          "sigma_absorption_2200_barn": 0.43,
+          "molar_mass_g_mol": 40.078,
+          "debye_temperature_k": 229.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "C",
+      "name": "Carbon",
+      "formula": "C",
+      "category": "element",
+      "source_file": "nxsElements/carbon.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 2.464,
+        "b": 2.464,
+        "c": 6.711,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "C",
+          "b_coherent_fm": 6.646,
+          "sigma_incoherent_barn": 0.001,
+          "sigma_absorption_2200_barn": 0.0035,
+          "molar_mass_g_mol": 12.011,
+          "debye_temperature_k": 413.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "Ce",
+      "name": "Cerium",
+      "formula": "Ce",
+      "category": "element",
+      "source_file": "nxsElements/cerium.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 3.62,
+        "b": 3.62,
+        "c": 5.99,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Ce",
+          "b_coherent_fm": 4.84,
+          "sigma_incoherent_barn": 0.001,
+          "sigma_absorption_2200_barn": 0.63,
+          "molar_mass_g_mol": 140.12,
+          "debye_temperature_k": 179.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "Cs",
+      "name": "Cesium",
+      "formula": "Cs",
+      "category": "element",
+      "source_file": "nxsElements/cesium.nxs",
+      "space_group": "229",
+      "lattice": {
+        "a": 6.141,
+        "b": 6.141,
+        "c": 6.141,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Cs",
+          "b_coherent_fm": 5.42,
+          "sigma_incoherent_barn": 0.21,
+          "sigma_absorption_2200_barn": 29.0,
+          "molar_mass_g_mol": 132.9054,
+          "debye_temperature_k": 40.5,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Cl",
+      "name": "Chlorine",
+      "formula": "Cl",
+      "category": "element",
+      "source_file": "nxsElements/chlorine.nxs",
+      "space_group": "64",
+      "lattice": {
+        "a": 6.2235,
+        "b": 4.4561,
+        "c": 8.1785,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Cl",
+          "b_coherent_fm": 9.577,
+          "sigma_incoherent_barn": 5.3,
+          "sigma_absorption_2200_barn": 33.5,
+          "molar_mass_g_mol": 35.4527,
+          "debye_temperature_k": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 3
+    },
+    {
+      "id": "Cr",
+      "name": "Chromium",
+      "formula": "Cr",
+      "category": "element",
+      "source_file": "nxsElements/chromium.nxs",
+      "space_group": "229",
+      "lattice": {
+        "a": 2.91,
+        "b": 2.91,
+        "c": 2.91,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Cr",
+          "b_coherent_fm": 3.635,
+          "sigma_incoherent_barn": 1.83,
+          "sigma_absorption_2200_barn": 3.05,
+          "molar_mass_g_mol": 51.996,
+          "debye_temperature_k": 606.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Co",
+      "name": "Cobalt",
+      "formula": "Co",
+      "category": "element",
+      "source_file": "nxsElements/cobalt.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 2.5071,
+        "b": 2.5071,
+        "c": 4.0695,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Co",
+          "b_coherent_fm": 2.49,
+          "sigma_incoherent_barn": 4.8,
+          "sigma_absorption_2200_barn": 37.18,
+          "molar_mass_g_mol": 58.9332,
+          "debye_temperature_k": 460.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "Cu",
+      "name": "Copper",
+      "formula": "Cu",
+      "category": "element",
+      "source_file": "nxsElements/copper.nxs",
+      "space_group": "225",
+      "lattice": {
+        "a": 3.6149,
+        "b": 3.6149,
+        "c": 3.6149,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Cu",
+          "b_coherent_fm": 7.718,
+          "sigma_incoherent_barn": 0.55,
+          "sigma_absorption_2200_barn": 3.78,
+          "molar_mass_g_mol": 63.456,
+          "debye_temperature_k": 347.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Dy",
+      "name": "Dysprosium",
+      "formula": "Dy",
+      "category": "element",
+      "source_file": "nxsElements/dysprosium.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 3.593,
+        "b": 3.593,
+        "c": 5.6537,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Dy",
+          "b_coherent_fm": 16.9,
+          "sigma_incoherent_barn": 54.4,
+          "sigma_absorption_2200_barn": 994.0,
+          "molar_mass_g_mol": 162.5,
+          "debye_temperature_k": 183.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "Er",
+      "name": "Erbium",
+      "formula": "Er",
+      "category": "element",
+      "source_file": "nxsElements/erbium.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 3.5588,
+        "b": 3.5588,
+        "c": 5.5874,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Er",
+          "b_coherent_fm": 7.79,
+          "sigma_incoherent_barn": 1.1,
+          "sigma_absorption_2200_barn": 159.0,
+          "molar_mass_g_mol": 167.26,
+          "debye_temperature_k": 188.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "Eu",
+      "name": "Europium",
+      "formula": "Eu",
+      "category": "element",
+      "source_file": "nxsElements/europium.nxs",
+      "space_group": "229",
+      "lattice": {
+        "a": 4.581,
+        "b": 4.581,
+        "c": 4.581,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Eu",
+          "b_coherent_fm": 7.22,
+          "sigma_incoherent_barn": 2.5,
+          "sigma_absorption_2200_barn": 4530.0,
+          "molar_mass_g_mol": 151.965,
+          "debye_temperature_k": 118.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "F",
+      "name": "Fluorine",
+      "formula": "F",
+      "category": "element",
+      "source_file": "nxsElements/fluorine.nxs",
+      "space_group": "15",
+      "lattice": {
+        "a": 5.5,
+        "b": 3.28,
+        "c": 7.28,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "F",
+          "b_coherent_fm": 5.654,
+          "sigma_incoherent_barn": 0.0008,
+          "sigma_absorption_2200_barn": 0.0096,
+          "molar_mass_g_mol": 18.9984,
+          "debye_temperature_k": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 2
+    },
+    {
+      "id": "Fr",
+      "name": "Francium",
+      "formula": "Fr",
+      "category": "element",
+      "source_file": "nxsElements/francium.nxs",
+      "space_group": "NaN",
+      "lattice": {
+        "a": NaN,
+        "b": NaN,
+        "c": NaN,
+        "alpha": NaN,
+        "beta": NaN,
+        "gamma": NaN
+      },
+      "atoms": [
+        {
+          "label": "Fr",
+          "b_coherent_fm": 0.0,
+          "sigma_incoherent_barn": 0.0,
+          "sigma_absorption_2200_barn": 0.0,
+          "molar_mass_g_mol": 223.0,
+          "debye_temperature_k": 39.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": []
+        }
+      ],
+      "crystal_system_nxs": 0
+    },
+    {
+      "id": "Gd",
+      "name": "Gadolinium",
+      "formula": "Gd",
+      "category": "element",
+      "source_file": "nxsElements/gadolinium.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 3.636,
+        "b": 3.636,
+        "c": 5.7826,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Gd",
+          "b_coherent_fm": 6.5,
+          "sigma_incoherent_barn": 151.0,
+          "sigma_absorption_2200_barn": 49700.0,
+          "molar_mass_g_mol": 157.25,
+          "debye_temperature_k": 182.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "Ga",
+      "name": "Gallium",
+      "formula": "Ga",
+      "category": "element",
+      "source_file": "nxsElements/gallium.nxs",
+      "space_group": "64",
+      "lattice": {
+        "a": 4.5197,
+        "b": 7.6633,
+        "c": 4.526,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Ga",
+          "b_coherent_fm": 7.288,
+          "sigma_incoherent_barn": 0.16,
+          "sigma_absorption_2200_barn": 2.75,
+          "molar_mass_g_mol": 69.723,
+          "debye_temperature_k": 325.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 3
+    },
+    {
+      "id": "Ge",
+      "name": "Germanium",
+      "formula": "Ge",
+      "category": "element",
+      "source_file": "nxsElements/germanium.nxs",
+      "space_group": "225",
+      "lattice": {
+        "a": 5.6575,
+        "b": 5.6575,
+        "c": 5.6575,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Ge",
+          "b_coherent_fm": 8.185,
+          "sigma_incoherent_barn": 0.18,
+          "sigma_absorption_2200_barn": 2.2,
+          "molar_mass_g_mol": 72.61,
+          "debye_temperature_k": 373.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Au",
+      "name": "Gold",
+      "formula": "Au",
+      "category": "element",
+      "source_file": "nxsElements/gold.nxs",
+      "space_group": "225",
+      "lattice": {
+        "a": 4.0782,
+        "b": 4.0782,
+        "c": 4.0782,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Au",
+          "b_coherent_fm": 7.63,
+          "sigma_incoherent_barn": 0.43,
+          "sigma_absorption_2200_barn": 98.65,
+          "molar_mass_g_mol": 196.9665,
+          "debye_temperature_k": 162.3,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Hf",
+      "name": "Hafnium",
+      "formula": "Hf",
+      "category": "element",
+      "source_file": "nxsElements/hafnium.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 3.1964,
+        "b": 3.1964,
+        "c": 5.0511,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Hf",
+          "b_coherent_fm": 7.7,
+          "sigma_incoherent_barn": 2.6,
+          "sigma_absorption_2200_barn": 104.1,
+          "molar_mass_g_mol": 178.49,
+          "debye_temperature_k": 252.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "He",
+      "name": "Helium",
+      "formula": "He",
+      "category": "element",
+      "source_file": "nxsElements/helium.nxs",
+      "space_group": "225",
+      "lattice": {
+        "a": 4.242,
+        "b": 4.242,
+        "c": 4.242,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "He",
+          "b_coherent_fm": 3.26,
+          "sigma_incoherent_barn": 0.0,
+          "sigma_absorption_2200_barn": 0.00747,
+          "molar_mass_g_mol": 4.0026,
+          "debye_temperature_k": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Ho",
+      "name": "Holmium",
+      "formula": "Ho",
+      "category": "element",
+      "source_file": "nxsElements/holmium.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 3.5773,
+        "b": 3.5773,
+        "c": 5.6158,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Ho",
+          "b_coherent_fm": 8.01,
+          "sigma_incoherent_barn": 0.36,
+          "sigma_absorption_2200_barn": 64.7,
+          "molar_mass_g_mol": 164.9303,
+          "debye_temperature_k": 190.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "H",
+      "name": "Hydrogen",
+      "formula": "H",
+      "category": "element",
+      "source_file": "nxsElements/hydrogen.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 4.7,
+        "b": 4.7,
+        "c": 3.4,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "H",
+          "b_coherent_fm": -3.739,
+          "sigma_incoherent_barn": 80.26,
+          "sigma_absorption_2200_barn": 0.3326,
+          "molar_mass_g_mol": 1.008,
+          "debye_temperature_k": 122.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "In",
+      "name": "Indium",
+      "formula": "In",
+      "category": "element",
+      "source_file": "nxsElements/indium.nxs",
+      "space_group": "139",
+      "lattice": {
+        "a": 3.2523,
+        "b": 3.2523,
+        "c": 4.9461,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "In",
+          "b_coherent_fm": 4.065,
+          "sigma_incoherent_barn": 0.54,
+          "sigma_absorption_2200_barn": 193.8,
+          "molar_mass_g_mol": 114.82,
+          "debye_temperature_k": 112.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 4
+    },
+    {
+      "id": "I",
+      "name": "Iodine",
+      "formula": "I",
+      "category": "element",
+      "source_file": "nxsElements/iodine.nxs",
+      "space_group": "64",
+      "lattice": {
+        "a": 7.1802,
+        "b": 4.7102,
+        "c": 9.8103,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "I",
+          "b_coherent_fm": 5.28,
+          "sigma_incoherent_barn": 0.31,
+          "sigma_absorption_2200_barn": 6.15,
+          "molar_mass_g_mol": 126.9045,
+          "debye_temperature_k": 109.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 3
+    },
+    {
+      "id": "Ir",
+      "name": "Iridium",
+      "formula": "Ir",
+      "category": "element",
+      "source_file": "nxsElements/iridium.nxs",
+      "space_group": "225",
+      "lattice": {
+        "a": 3.839,
+        "b": 3.839,
+        "c": 3.839,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Ir",
+          "b_coherent_fm": 10.6,
+          "sigma_incoherent_barn": 0.0,
+          "sigma_absorption_2200_barn": 425.0,
+          "molar_mass_g_mol": 192.22,
+          "debye_temperature_k": 420.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Fe",
+      "name": "Iron",
+      "formula": "Fe",
+      "category": "element",
+      "source_file": "nxsElements/iron.nxs",
+      "space_group": "229",
+      "lattice": {
+        "a": 2.8665,
+        "b": 2.8665,
+        "c": 2.8665,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Fe",
+          "b_coherent_fm": 9.45,
+          "sigma_incoherent_barn": 0.4,
+          "sigma_absorption_2200_barn": 2.56,
+          "molar_mass_g_mol": 55.847,
+          "debye_temperature_k": 477.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Kr",
+      "name": "Krypton",
+      "formula": "Kr",
+      "category": "element",
+      "source_file": "nxsElements/krypton.nxs",
+      "space_group": "225",
+      "lattice": {
+        "a": 5.706,
+        "b": 5.706,
+        "c": 5.706,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Kr",
+          "b_coherent_fm": 7.81,
+          "sigma_incoherent_barn": 0.01,
+          "sigma_absorption_2200_barn": 25.0,
+          "molar_mass_g_mol": 83.8,
+          "debye_temperature_k": 71.9,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "La",
+      "name": "Lanthanum",
+      "formula": "La",
+      "category": "element",
+      "source_file": "nxsElements/lanthanum.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 3.772,
+        "b": 3.772,
+        "c": 12.144,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "La",
+          "b_coherent_fm": 8.24,
+          "sigma_incoherent_barn": 1.13,
+          "sigma_absorption_2200_barn": 8.97,
+          "molar_mass_g_mol": 138.9055,
+          "debye_temperature_k": 150.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "Pb",
+      "name": "Lead",
+      "formula": "Pb",
+      "category": "element",
+      "source_file": "nxsElements/lead.nxs",
+      "space_group": "225",
+      "lattice": {
+        "a": 4.9508,
+        "b": 4.9508,
+        "c": 4.9508,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Pb",
+          "b_coherent_fm": 9.405,
+          "sigma_incoherent_barn": 0.003,
+          "sigma_absorption_2200_barn": 0.171,
+          "molar_mass_g_mol": 207.2,
+          "debye_temperature_k": 105.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Li",
+      "name": "Lithium",
+      "formula": "Li",
+      "category": "element",
+      "source_file": "nxsElements/lithium.nxs",
+      "space_group": "229",
+      "lattice": {
+        "a": 3.51,
+        "b": 3.51,
+        "c": 3.51,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Li",
+          "b_coherent_fm": -1.9,
+          "sigma_incoherent_barn": 0.92,
+          "sigma_absorption_2200_barn": 70.5,
+          "molar_mass_g_mol": 6.941,
+          "debye_temperature_k": 344.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Lu",
+      "name": "Lutetium",
+      "formula": "Lu",
+      "category": "element",
+      "source_file": "nxsElements/lutetium.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 3.5031,
+        "b": 3.5031,
+        "c": 5.5509,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Lu",
+          "b_coherent_fm": 7.21,
+          "sigma_incoherent_barn": 0.7,
+          "sigma_absorption_2200_barn": 74.0,
+          "molar_mass_g_mol": 174.967,
+          "debye_temperature_k": 183.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "Mg",
+      "name": "Magnesium",
+      "formula": "Mg",
+      "category": "element",
+      "source_file": "nxsElements/magnesium.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 3.2094,
+        "b": 3.2094,
+        "c": 5.2108,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Mg",
+          "b_coherent_fm": 5.375,
+          "sigma_incoherent_barn": 0.08,
+          "sigma_absorption_2200_barn": 0.063,
+          "molar_mass_g_mol": 24.305,
+          "debye_temperature_k": 403.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "Mn",
+      "name": "Manganese",
+      "formula": "Mn",
+      "category": "element",
+      "source_file": "nxsElements/manganese.nxs",
+      "space_group": "217",
+      "lattice": {
+        "a": 8.9125,
+        "b": 8.9125,
+        "c": 8.9125,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Mn",
+          "b_coherent_fm": -3.73,
+          "sigma_incoherent_barn": 0.4,
+          "sigma_absorption_2200_barn": 13.3,
+          "molar_mass_g_mol": 54.938,
+          "debye_temperature_k": 409.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Hg",
+      "name": "Mercury",
+      "formula": "Hg",
+      "category": "element",
+      "source_file": "nxsElements/mercury.nxs",
+      "space_group": "166",
+      "lattice": {
+        "a": 3.005,
+        "b": 3.005,
+        "c": 3.005,
+        "alpha": 70.5,
+        "beta": 70.5,
+        "gamma": 70.5
+      },
+      "atoms": [
+        {
+          "label": "Hg",
+          "b_coherent_fm": 12.692,
+          "sigma_incoherent_barn": 6.6,
+          "sigma_absorption_2200_barn": 372.3,
+          "molar_mass_g_mol": 200.59,
+          "debye_temperature_k": 72.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.666666666666667,
+              0.333333333333333,
+              0.333333333333333
+            ],
+            [
+              0.333333333333333,
+              0.666666666666667,
+              0.666666666666667
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 5
+    },
+    {
+      "id": "Mo",
+      "name": "Molybdenum",
+      "formula": "Mo",
+      "category": "element",
+      "source_file": "nxsElements/molybdenum.nxs",
+      "space_group": "229",
+      "lattice": {
+        "a": 3.147,
+        "b": 3.147,
+        "c": 3.147,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Mo",
+          "b_coherent_fm": 6.715,
+          "sigma_incoherent_barn": 0.04,
+          "sigma_absorption_2200_barn": 2.48,
+          "molar_mass_g_mol": 95.94,
+          "debye_temperature_k": 423.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Nd",
+      "name": "Neodymium",
+      "formula": "Nd",
+      "category": "element",
+      "source_file": "nxsElements/neodymium.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 3.658,
+        "b": 3.658,
+        "c": 11.799,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Nd",
+          "b_coherent_fm": 7.69,
+          "sigma_incoherent_barn": 9.2,
+          "sigma_absorption_2200_barn": 50.5,
+          "molar_mass_g_mol": 144.24,
+          "debye_temperature_k": 163.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "Ne",
+      "name": "Neon",
+      "formula": "Ne",
+      "category": "element",
+      "source_file": "nxsElements/neon.nxs",
+      "space_group": "225",
+      "lattice": {
+        "a": 4.429,
+        "b": 4.429,
+        "c": 4.429,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Ne",
+          "b_coherent_fm": 4.566,
+          "sigma_incoherent_barn": 0.008,
+          "sigma_absorption_2200_barn": 0.039,
+          "molar_mass_g_mol": 20.1797,
+          "debye_temperature_k": 74.6,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Np",
+      "name": "Neptunium",
+      "formula": "Np",
+      "category": "element",
+      "source_file": "nxsElements/neptunium.nxs",
+      "space_group": "62",
+      "lattice": {
+        "a": 6.663,
+        "b": 4.723,
+        "c": 4.887,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Np",
+          "b_coherent_fm": 10.55,
+          "sigma_incoherent_barn": 0.5,
+          "sigma_absorption_2200_barn": 175.9,
+          "molar_mass_g_mol": 237.0482,
+          "debye_temperature_k": 259.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0.5
+            ],
+            [
+              0,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 3
+    },
+    {
+      "id": "Ni",
+      "name": "Nickel",
+      "formula": "Ni",
+      "category": "element",
+      "source_file": "nxsElements/nickel.nxs",
+      "space_group": "225",
+      "lattice": {
+        "a": 3.524,
+        "b": 3.524,
+        "c": 3.524,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Ni",
+          "b_coherent_fm": 10.3,
+          "sigma_incoherent_barn": 5.2,
+          "sigma_absorption_2200_barn": 4.49,
+          "molar_mass_g_mol": 58.6934,
+          "debye_temperature_k": 477.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Nb",
+      "name": "Niobium",
+      "formula": "Nb",
+      "category": "element",
+      "source_file": "nxsElements/niobium.nxs",
+      "space_group": "229",
+      "lattice": {
+        "a": 3.3004,
+        "b": 3.3004,
+        "c": 3.3004,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Nb",
+          "b_coherent_fm": 7.054,
+          "sigma_incoherent_barn": 0.0024,
+          "sigma_absorption_2200_barn": 1.15,
+          "molar_mass_g_mol": 92.9064,
+          "debye_temperature_k": 276.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "N",
+      "name": "Nitrogen",
+      "formula": "N",
+      "category": "element",
+      "source_file": "nxsElements/nitrogen.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 3.861,
+        "b": 3.861,
+        "c": 6.265,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "N",
+          "b_coherent_fm": 9.36,
+          "sigma_incoherent_barn": 0.5,
+          "sigma_absorption_2200_barn": 1.9,
+          "molar_mass_g_mol": 14.0067,
+          "debye_temperature_k": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "Os",
+      "name": "Osmium",
+      "formula": "Os",
+      "category": "element",
+      "source_file": "nxsElements/osmium.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 2.7344,
+        "b": 2.7344,
+        "c": 4.3173,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Os",
+          "b_coherent_fm": 10.7,
+          "sigma_incoherent_barn": 0.3,
+          "sigma_absorption_2200_barn": 16.0,
+          "molar_mass_g_mol": 190.2,
+          "debye_temperature_k": 467.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "O",
+      "name": "Oxygen",
+      "formula": "O",
+      "category": "element",
+      "source_file": "nxsElements/oxygen.nxs",
+      "space_group": "12",
+      "lattice": {
+        "a": 5.403,
+        "b": 3.429,
+        "c": 5.086,
+        "alpha": 90.0,
+        "beta": 132.1,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "O",
+          "b_coherent_fm": 5.803,
+          "sigma_incoherent_barn": 0.0008,
+          "sigma_absorption_2200_barn": 0.00019,
+          "molar_mass_g_mol": 15.9994,
+          "debye_temperature_k": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 2
+    },
+    {
+      "id": "Pd",
+      "name": "Palladium",
+      "formula": "Pd",
+      "category": "element",
+      "source_file": "nxsElements/palladium.nxs",
+      "space_group": "225",
+      "lattice": {
+        "a": 3.8907,
+        "b": 3.8907,
+        "c": 3.8907,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Pd",
+          "b_coherent_fm": 5.91,
+          "sigma_incoherent_barn": 0.093,
+          "sigma_absorption_2200_barn": 6.9,
+          "molar_mass_g_mol": 106.42,
+          "debye_temperature_k": 271.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "P",
+      "name": "Phosphorus",
+      "formula": "P",
+      "category": "element",
+      "source_file": "nxsElements/phosphorus.nxs",
+      "space_group": "2",
+      "lattice": {
+        "a": 11.45,
+        "b": 5.503,
+        "c": 11.261,
+        "alpha": 71.8,
+        "beta": 90.4,
+        "gamma": 71.6
+      },
+      "atoms": [
+        {
+          "label": "P",
+          "b_coherent_fm": 5.13,
+          "sigma_incoherent_barn": 0.005,
+          "sigma_absorption_2200_barn": 0.172,
+          "molar_mass_g_mol": 30.9738,
+          "debye_temperature_k": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 1
+    },
+    {
+      "id": "Pt",
+      "name": "Platinum",
+      "formula": "Pt",
+      "category": "element",
+      "source_file": "nxsElements/platinum.nxs",
+      "space_group": "225",
+      "lattice": {
+        "a": 3.9242,
+        "b": 3.9242,
+        "c": 3.9242,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Pt",
+          "b_coherent_fm": 9.6,
+          "sigma_incoherent_barn": 0.13,
+          "sigma_absorption_2200_barn": 10.3,
+          "molar_mass_g_mol": 195.08,
+          "debye_temperature_k": 237.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Pu",
+      "name": "Plutonium",
+      "formula": "Pu",
+      "category": "element",
+      "source_file": "nxsElements/plutonium.nxs",
+      "space_group": "11",
+      "lattice": {
+        "a": 6.183,
+        "b": 4.822,
+        "c": 10.963,
+        "alpha": 90.0,
+        "beta": 101.8,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Pu",
+          "b_coherent_fm": 0.0,
+          "sigma_incoherent_barn": 0.0,
+          "sigma_absorption_2200_barn": 0.0,
+          "molar_mass_g_mol": 244.0,
+          "debye_temperature_k": 206.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 2
+    },
+    {
+      "id": "Po",
+      "name": "Polonium",
+      "formula": "Po",
+      "category": "element",
+      "source_file": "nxsElements/polonium.nxs",
+      "space_group": "221",
+      "lattice": {
+        "a": 3.359,
+        "b": 3.359,
+        "c": 3.359,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Po",
+          "b_coherent_fm": 0.0,
+          "sigma_incoherent_barn": 0.0,
+          "sigma_absorption_2200_barn": 0.0,
+          "molar_mass_g_mol": 209.0,
+          "debye_temperature_k": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "K",
+      "name": "Potassium",
+      "formula": "K",
+      "category": "element",
+      "source_file": "nxsElements/potassium.nxs",
+      "space_group": "229",
+      "lattice": {
+        "a": 5.328,
+        "b": 5.328,
+        "c": 5.328,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "K",
+          "b_coherent_fm": 3.67,
+          "sigma_incoherent_barn": 0.27,
+          "sigma_absorption_2200_barn": 2.1,
+          "molar_mass_g_mol": 39.0983,
+          "debye_temperature_k": 91.1,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Pr",
+      "name": "Praseodymium",
+      "formula": "Pr",
+      "category": "element",
+      "source_file": "nxsElements/praseodymium.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 3.6725,
+        "b": 3.6725,
+        "c": 11.8354,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Pr",
+          "b_coherent_fm": 4.58,
+          "sigma_incoherent_barn": 0.015,
+          "sigma_absorption_2200_barn": 11.5,
+          "molar_mass_g_mol": 140.9077,
+          "debye_temperature_k": 152.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "Pm",
+      "name": "Promethium",
+      "formula": "Pm",
+      "category": "element",
+      "source_file": "nxsElements/promethium.nxs",
+      "space_group": "NaN",
+      "lattice": {
+        "a": NaN,
+        "b": NaN,
+        "c": NaN,
+        "alpha": NaN,
+        "beta": NaN,
+        "gamma": NaN
+      },
+      "atoms": [
+        {
+          "label": "Pm",
+          "b_coherent_fm": 12.6,
+          "sigma_incoherent_barn": 1.3,
+          "sigma_absorption_2200_barn": 168.4,
+          "molar_mass_g_mol": 145.0,
+          "debye_temperature_k": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": []
+        }
+      ],
+      "crystal_system_nxs": 0
+    },
+    {
+      "id": "Pa",
+      "name": "Protactinium",
+      "formula": "Pa",
+      "category": "element",
+      "source_file": "nxsElements/protactinium.nxs",
+      "space_group": "139",
+      "lattice": {
+        "a": 3.925,
+        "b": 3.925,
+        "c": 3.238,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Pa",
+          "b_coherent_fm": 9.1,
+          "sigma_incoherent_barn": 0.1,
+          "sigma_absorption_2200_barn": 200.6,
+          "molar_mass_g_mol": 231.0359,
+          "debye_temperature_k": 185.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 4
+    },
+    {
+      "id": "Ra",
+      "name": "Radium",
+      "formula": "Ra",
+      "category": "element",
+      "source_file": "nxsElements/radium.nxs",
+      "space_group": "229",
+      "lattice": {
+        "a": 5.148,
+        "b": 5.148,
+        "c": 5.148,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Ra",
+          "b_coherent_fm": 10.0,
+          "sigma_incoherent_barn": 0.0,
+          "sigma_absorption_2200_barn": 12.8,
+          "molar_mass_g_mol": 226.0254,
+          "debye_temperature_k": 89.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Rn",
+      "name": "Radon",
+      "formula": "Rn",
+      "category": "element",
+      "source_file": "nxsElements/radon.nxs",
+      "space_group": "NaN",
+      "lattice": {
+        "a": NaN,
+        "b": NaN,
+        "c": NaN,
+        "alpha": NaN,
+        "beta": NaN,
+        "gamma": NaN
+      },
+      "atoms": [
+        {
+          "label": "Rn",
+          "b_coherent_fm": 0.0,
+          "sigma_incoherent_barn": 0.0,
+          "sigma_absorption_2200_barn": 0.0,
+          "molar_mass_g_mol": 222.0,
+          "debye_temperature_k": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": []
+        }
+      ],
+      "crystal_system_nxs": 0
+    },
+    {
+      "id": "Re",
+      "name": "Rhenium",
+      "formula": "Re",
+      "category": "element",
+      "source_file": "nxsElements/rhenium.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 2.761,
+        "b": 2.761,
+        "c": 4.456,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Re",
+          "b_coherent_fm": 9.2,
+          "sigma_incoherent_barn": 0.9,
+          "sigma_absorption_2200_barn": 89.7,
+          "molar_mass_g_mol": 186.207,
+          "debye_temperature_k": 416.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "Rh",
+      "name": "Rhodium",
+      "formula": "Rh",
+      "category": "element",
+      "source_file": "nxsElements/rhodium.nxs",
+      "space_group": "225",
+      "lattice": {
+        "a": 3.8034,
+        "b": 3.8034,
+        "c": 3.8034,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Rh",
+          "b_coherent_fm": 5.88,
+          "sigma_incoherent_barn": 0.3,
+          "sigma_absorption_2200_barn": 144.8,
+          "molar_mass_g_mol": 102.9055,
+          "debye_temperature_k": 521.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Rb",
+      "name": "Rubidium",
+      "formula": "Rb",
+      "category": "element",
+      "source_file": "nxsElements/rubidium.nxs",
+      "space_group": "229",
+      "lattice": {
+        "a": 5.585,
+        "b": 5.585,
+        "c": 5.585,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Rb",
+          "b_coherent_fm": 7.09,
+          "sigma_incoherent_barn": 0.5,
+          "sigma_absorption_2200_barn": 0.38,
+          "molar_mass_g_mol": 85.4678,
+          "debye_temperature_k": 56.5,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Ru",
+      "name": "Ruthenium",
+      "formula": "Ru",
+      "category": "element",
+      "source_file": "nxsElements/ruthenium.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 2.7059,
+        "b": 2.7059,
+        "c": 4.2815,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Ru",
+          "b_coherent_fm": 7.03,
+          "sigma_incoherent_barn": 0.4,
+          "sigma_absorption_2200_barn": 2.56,
+          "molar_mass_g_mol": 101.07,
+          "debye_temperature_k": 555.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "Sm",
+      "name": "Samarium",
+      "formula": "Sm",
+      "category": "element",
+      "source_file": "nxsElements/samarium.nxs",
+      "space_group": "166",
+      "lattice": {
+        "a": 3.621,
+        "b": 3.621,
+        "c": 26.25,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Sm",
+          "b_coherent_fm": 0.8,
+          "sigma_incoherent_barn": 39.0,
+          "sigma_absorption_2200_barn": 5922.0,
+          "molar_mass_g_mol": 150.36,
+          "debye_temperature_k": 169.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.666666666666667,
+              0.333333333333333,
+              0.333333333333333
+            ],
+            [
+              0.333333333333333,
+              0.666666666666667,
+              0.666666666666667
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 5
+    },
+    {
+      "id": "Sc",
+      "name": "Scandium",
+      "formula": "Sc",
+      "category": "element",
+      "source_file": "nxsElements/scandium.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 3.309,
+        "b": 3.309,
+        "c": 5.2733,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Sc",
+          "b_coherent_fm": 12.29,
+          "sigma_incoherent_barn": 4.5,
+          "sigma_absorption_2200_barn": 27.5,
+          "molar_mass_g_mol": 44.9559,
+          "debye_temperature_k": 346.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "Se",
+      "name": "Selenium",
+      "formula": "Se",
+      "category": "element",
+      "source_file": "nxsElements/selenium.nxs",
+      "space_group": "14",
+      "lattice": {
+        "a": 9.054,
+        "b": 9.083,
+        "c": 11.601,
+        "alpha": 90.0,
+        "beta": 90.8,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Se",
+          "b_coherent_fm": 7.97,
+          "sigma_incoherent_barn": 0.32,
+          "sigma_absorption_2200_barn": 11.7,
+          "molar_mass_g_mol": 78.96,
+          "debye_temperature_k": 152.5,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 2
+    },
+    {
+      "id": "Si",
+      "name": "Silicon",
+      "formula": "Si",
+      "category": "element",
+      "source_file": "nxsElements/silicon.nxs",
+      "space_group": "227",
+      "lattice": {
+        "a": 5.4309,
+        "b": 5.4309,
+        "c": 5.4309,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Si",
+          "b_coherent_fm": 4.1491,
+          "sigma_incoherent_barn": 0.004,
+          "sigma_absorption_2200_barn": 0.171,
+          "molar_mass_g_mol": 28.0855,
+          "debye_temperature_k": 645.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.25,
+              0.25,
+              0.25
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.25,
+              0.75,
+              0.75
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.75,
+              0.25,
+              0.75
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ],
+            [
+              0.75,
+              0.75,
+              0.25
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Ag",
+      "name": "Silver",
+      "formula": "Ag",
+      "category": "element",
+      "source_file": "nxsElements/silver.nxs",
+      "space_group": "225",
+      "lattice": {
+        "a": 4.0853,
+        "b": 4.0853,
+        "c": 4.0853,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Ag",
+          "b_coherent_fm": 5.922,
+          "sigma_incoherent_barn": 0.58,
+          "sigma_absorption_2200_barn": 63.3,
+          "molar_mass_g_mol": 107.868,
+          "debye_temperature_k": 227.3,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Na",
+      "name": "Sodium",
+      "formula": "Na",
+      "category": "element",
+      "source_file": "nxsElements/sodium.nxs",
+      "space_group": "229",
+      "lattice": {
+        "a": 4.2906,
+        "b": 4.2906,
+        "c": 4.2906,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Na",
+          "b_coherent_fm": 3.63,
+          "sigma_incoherent_barn": 1.62,
+          "sigma_absorption_2200_barn": 0.53,
+          "molar_mass_g_mol": 22.9898,
+          "debye_temperature_k": 156.5,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Sr",
+      "name": "Strontium",
+      "formula": "Sr",
+      "category": "element",
+      "source_file": "nxsElements/strontium.nxs",
+      "space_group": "225",
+      "lattice": {
+        "a": 6.0849,
+        "b": 6.0849,
+        "c": 6.0849,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Sr",
+          "b_coherent_fm": 7.02,
+          "sigma_incoherent_barn": 0.06,
+          "sigma_absorption_2200_barn": 1.28,
+          "molar_mass_g_mol": 87.62,
+          "debye_temperature_k": 147.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "S",
+      "name": "Sulfur",
+      "formula": "S",
+      "category": "element",
+      "source_file": "nxsElements/sulfur.nxs",
+      "space_group": "70",
+      "lattice": {
+        "a": 10.437,
+        "b": 12.845,
+        "c": 24.369,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "S",
+          "b_coherent_fm": 2.847,
+          "sigma_incoherent_barn": 0.007,
+          "sigma_absorption_2200_barn": 0.53,
+          "molar_mass_g_mol": 32.066,
+          "debye_temperature_k": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.25,
+              0.25,
+              0.25
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.25,
+              0.75,
+              0.75
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.75,
+              0.25,
+              0.75
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ],
+            [
+              0.75,
+              0.75,
+              0.25
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 3
+    },
+    {
+      "id": "Ta",
+      "name": "Tantalum",
+      "formula": "Ta",
+      "category": "element",
+      "source_file": "nxsElements/tantalum.nxs",
+      "space_group": "229",
+      "lattice": {
+        "a": 3.3013,
+        "b": 3.3013,
+        "c": 3.3013,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Ta",
+          "b_coherent_fm": 6.91,
+          "sigma_incoherent_barn": 0.01,
+          "sigma_absorption_2200_barn": 20.6,
+          "molar_mass_g_mol": 180.9479,
+          "debye_temperature_k": 246.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Tc",
+      "name": "Technetium",
+      "formula": "Tc",
+      "category": "element",
+      "source_file": "nxsElements/technetium.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 2.735,
+        "b": 2.735,
+        "c": 4.388,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Tc",
+          "b_coherent_fm": 6.8,
+          "sigma_incoherent_barn": 0.5,
+          "sigma_absorption_2200_barn": 20.0,
+          "molar_mass_g_mol": 98.0,
+          "debye_temperature_k": 454.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "Te",
+      "name": "Tellurium",
+      "formula": "Te",
+      "category": "element",
+      "source_file": "nxsElements/tellurium.nxs",
+      "space_group": "152",
+      "lattice": {
+        "a": 4.4572,
+        "b": 4.4572,
+        "c": 5.929,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Te",
+          "b_coherent_fm": 5.8,
+          "sigma_incoherent_barn": 0.09,
+          "sigma_absorption_2200_barn": 4.7,
+          "molar_mass_g_mol": 127.6,
+          "debye_temperature_k": 152.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.333333333333333
+            ],
+            [
+              0,
+              0,
+              0.666666666666667
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 5
+    },
+    {
+      "id": "Tb",
+      "name": "Terbium",
+      "formula": "Tb",
+      "category": "element",
+      "source_file": "nxsElements/terbium.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 3.601,
+        "b": 3.601,
+        "c": 5.6936,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Tb",
+          "b_coherent_fm": 7.38,
+          "sigma_incoherent_barn": 0.004,
+          "sigma_absorption_2200_barn": 23.4,
+          "molar_mass_g_mol": 158.9253,
+          "debye_temperature_k": 176.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "Tl",
+      "name": "Thallium",
+      "formula": "Tl",
+      "category": "element",
+      "source_file": "nxsElements/thallium.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 3.4566,
+        "b": 3.4566,
+        "c": 5.5248,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Tl",
+          "b_coherent_fm": 8.776,
+          "sigma_incoherent_barn": 0.21,
+          "sigma_absorption_2200_barn": 3.43,
+          "molar_mass_g_mol": 204.383,
+          "debye_temperature_k": 78.5,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "Th",
+      "name": "Thorium",
+      "formula": "Th",
+      "category": "element",
+      "source_file": "nxsElements/thorium.nxs",
+      "space_group": "225",
+      "lattice": {
+        "a": 5.0842,
+        "b": 5.0842,
+        "c": 5.0842,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Th",
+          "b_coherent_fm": 10.31,
+          "sigma_incoherent_barn": 0.0,
+          "sigma_absorption_2200_barn": 7.37,
+          "molar_mass_g_mol": 232.0381,
+          "debye_temperature_k": 160.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Tm",
+      "name": "Thulium",
+      "formula": "Tm",
+      "category": "element",
+      "source_file": "nxsElements/thulium.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 3.5375,
+        "b": 3.5375,
+        "c": 5.5546,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Tm",
+          "b_coherent_fm": 7.07,
+          "sigma_incoherent_barn": 0.1,
+          "sigma_absorption_2200_barn": 100.0,
+          "molar_mass_g_mol": 168.9342,
+          "debye_temperature_k": 200.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "Sn",
+      "name": "Tin",
+      "formula": "Sn",
+      "category": "element",
+      "source_file": "nxsElements/tin.nxs",
+      "space_group": "141",
+      "lattice": {
+        "a": 5.8318,
+        "b": 5.8318,
+        "c": 3.1819,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Sn",
+          "b_coherent_fm": 6.225,
+          "sigma_incoherent_barn": 0.022,
+          "sigma_absorption_2200_barn": 0.626,
+          "molar_mass_g_mol": 118.71,
+          "debye_temperature_k": 199.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.25
+            ],
+            [
+              0.5,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0.75
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 4
+    },
+    {
+      "id": "Ti",
+      "name": "Titanium",
+      "formula": "Ti",
+      "category": "element",
+      "source_file": "nxsElements/titanium.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 2.9508,
+        "b": 2.9508,
+        "c": 4.6855,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Ti",
+          "b_coherent_fm": -3.438,
+          "sigma_incoherent_barn": 2.87,
+          "sigma_absorption_2200_barn": 6.09,
+          "molar_mass_g_mol": 47.88,
+          "debye_temperature_k": 420.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "W",
+      "name": "Tungsten",
+      "formula": "W",
+      "category": "element",
+      "source_file": "nxsElements/tungsten.nxs",
+      "space_group": "229",
+      "lattice": {
+        "a": 3.1652,
+        "b": 3.1652,
+        "c": 3.1652,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "W",
+          "b_coherent_fm": 4.86,
+          "sigma_incoherent_barn": 1.63,
+          "sigma_absorption_2200_barn": 18.3,
+          "molar_mass_g_mol": 183.85,
+          "debye_temperature_k": 383.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "U",
+      "name": "Uranium",
+      "formula": "U",
+      "category": "element",
+      "source_file": "nxsElements/uranium.nxs",
+      "space_group": "63",
+      "lattice": {
+        "a": 2.8537,
+        "b": 5.8695,
+        "c": 4.9548,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "U",
+          "b_coherent_fm": 8.417,
+          "sigma_incoherent_barn": 0.005,
+          "sigma_absorption_2200_barn": 7.57,
+          "molar_mass_g_mol": 238.029,
+          "debye_temperature_k": 248.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 3
+    },
+    {
+      "id": "V",
+      "name": "Vanadium",
+      "formula": "V",
+      "category": "element",
+      "source_file": "nxsElements/vanadium.nxs",
+      "space_group": "229",
+      "lattice": {
+        "a": 3.03,
+        "b": 3.03,
+        "c": 3.03,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "V",
+          "b_coherent_fm": -0.3824,
+          "sigma_incoherent_barn": 5.08,
+          "sigma_absorption_2200_barn": 5.08,
+          "molar_mass_g_mol": 50.9415,
+          "debye_temperature_k": 399.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Xe",
+      "name": "Xenon",
+      "formula": "Xe",
+      "category": "element",
+      "source_file": "nxsElements/xenon.nxs",
+      "space_group": "225",
+      "lattice": {
+        "a": 6.2023,
+        "b": 6.2023,
+        "c": 6.2023,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Xe",
+          "b_coherent_fm": 4.92,
+          "sigma_incoherent_barn": 0.0,
+          "sigma_absorption_2200_barn": 23.9,
+          "molar_mass_g_mol": 131.29,
+          "debye_temperature_k": 64.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Yb",
+      "name": "Ytterbium",
+      "formula": "Yb",
+      "category": "element",
+      "source_file": "nxsElements/ytterbium.nxs",
+      "space_group": "225",
+      "lattice": {
+        "a": 5.4847,
+        "b": 5.4847,
+        "c": 5.4847,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Yb",
+          "b_coherent_fm": 12.43,
+          "sigma_incoherent_barn": 4.0,
+          "sigma_absorption_2200_barn": 34.8,
+          "molar_mass_g_mol": 173.04,
+          "debye_temperature_k": 118.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Y",
+      "name": "Yttrium",
+      "formula": "Y",
+      "category": "element",
+      "source_file": "nxsElements/yttrium.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 3.6474,
+        "b": 3.6474,
+        "c": 5.7306,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Y",
+          "b_coherent_fm": 7.75,
+          "sigma_incoherent_barn": 0.15,
+          "sigma_absorption_2200_barn": 1.28,
+          "molar_mass_g_mol": 88.9059,
+          "debye_temperature_k": 248.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "Zn",
+      "name": "Zinc",
+      "formula": "Zn",
+      "category": "element",
+      "source_file": "nxsElements/zinc.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 2.6649,
+        "b": 2.6649,
+        "c": 4.9468,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Zn",
+          "b_coherent_fm": 5.68,
+          "sigma_incoherent_barn": 0.077,
+          "sigma_absorption_2200_barn": 1.11,
+          "molar_mass_g_mol": 65.39,
+          "debye_temperature_k": 329.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "Zr",
+      "name": "Zirconium",
+      "formula": "Zr",
+      "category": "element",
+      "source_file": "nxsElements/zirconium.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 3.232,
+        "b": 3.232,
+        "c": 5.147,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "Zr",
+          "b_coherent_fm": 7.16,
+          "sigma_incoherent_barn": 0.02,
+          "sigma_absorption_2200_barn": 0.185,
+          "molar_mass_g_mol": 91.224,
+          "debye_temperature_k": 290.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "Al_example",
+      "name": "Al",
+      "formula": "Al",
+      "category": "example",
+      "source_file": "nxs-files/Al.nxs",
+      "space_group": "-F 4 2 3",
+      "lattice": {
+        "a": 4.049,
+        "b": 4.049,
+        "c": 4.049,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Al",
+          "b_coherent_fm": 3.449,
+          "sigma_incoherent_barn": 0.008,
+          "sigma_absorption_2200_barn": 0.23,
+          "molar_mass_g_mol": 26.98,
+          "debye_temperature_k": 429.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Cementite",
+      "name": "Cementite",
+      "formula": "FeFeC",
+      "category": "example",
+      "source_file": "nxs-files/Cementite.nxs",
+      "space_group": "62",
+      "lattice": {
+        "a": 4.515,
+        "b": 5.084,
+        "c": 6.747,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Fe",
+          "b_coherent_fm": 9.45,
+          "sigma_incoherent_barn": 0.4,
+          "sigma_absorption_2200_barn": 2.56,
+          "molar_mass_g_mol": 55.85,
+          "debye_temperature_k": 464.0,
+          "x": 0.1846,
+          "y": 0.0594,
+          "z": 0.334,
+          "positions": [
+            [
+              0.1846,
+              0.0594,
+              0.334
+            ],
+            [
+              0.3154,
+              0.9406,
+              0.834
+            ],
+            [
+              0.6846,
+              0.4406,
+              0.166
+            ],
+            [
+              0.8154,
+              0.5594,
+              0.666
+            ],
+            [
+              0.8154,
+              0.9406,
+              0.666
+            ],
+            [
+              0.6846,
+              0.0594,
+              0.166
+            ],
+            [
+              0.3154,
+              0.5594,
+              0.834
+            ],
+            [
+              0.1846,
+              0.4406,
+              0.334
+            ]
+          ]
+        },
+        {
+          "label": "Fe",
+          "b_coherent_fm": 9.45,
+          "sigma_incoherent_barn": 0.4,
+          "sigma_absorption_2200_barn": 2.56,
+          "molar_mass_g_mol": 55.85,
+          "debye_temperature_k": 464.0,
+          "x": 0.5346,
+          "y": 0.25,
+          "z": 0.6623,
+          "positions": [
+            [
+              0.5346,
+              0.25,
+              0.6623
+            ],
+            [
+              0.9654,
+              0.75,
+              0.1623
+            ],
+            [
+              0.0346,
+              0.25,
+              0.8377
+            ],
+            [
+              0.4654,
+              0.75,
+              0.3377
+            ]
+          ]
+        },
+        {
+          "label": "C",
+          "b_coherent_fm": 6.646,
+          "sigma_incoherent_barn": 0.001,
+          "sigma_absorption_2200_barn": 0.004,
+          "molar_mass_g_mol": 12.011,
+          "debye_temperature_k": 2230.0,
+          "x": 0.3984,
+          "y": 0.25,
+          "z": 0.0526,
+          "positions": [
+            [
+              0.3984,
+              0.25,
+              0.0526
+            ],
+            [
+              0.1016,
+              0.75,
+              0.5526
+            ],
+            [
+              0.8984,
+              0.25,
+              0.4474
+            ],
+            [
+              0.6016,
+              0.75,
+              0.9474
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 3
+    },
+    {
+      "id": "Cu_example",
+      "name": "Cu",
+      "formula": "Cu",
+      "category": "example",
+      "source_file": "nxs-files/Cu.nxs",
+      "space_group": "225",
+      "lattice": {
+        "a": 3.61,
+        "b": 3.61,
+        "c": 3.61,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Cu",
+          "b_coherent_fm": 7.718,
+          "sigma_incoherent_barn": 0.55,
+          "sigma_absorption_2200_barn": 3.769,
+          "molar_mass_g_mol": 63.55,
+          "debye_temperature_k": 344.5,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Diamond",
+      "name": "Diamond",
+      "formula": "C",
+      "category": "example",
+      "source_file": "nxs-files/Diamond.nxs",
+      "space_group": "227",
+      "lattice": {
+        "a": 3.567,
+        "b": 0.0,
+        "c": 0.0,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "C",
+          "b_coherent_fm": 6.646,
+          "sigma_incoherent_barn": 0.001,
+          "sigma_absorption_2200_barn": 0.0035,
+          "molar_mass_g_mol": 12.01,
+          "debye_temperature_k": 429.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.25,
+              0.25,
+              0.25
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.25,
+              0.75,
+              0.75
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.75,
+              0.25,
+              0.75
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ],
+            [
+              0.75,
+              0.75,
+              0.25
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Fe_example",
+      "name": "Fe",
+      "formula": "Fe",
+      "category": "example",
+      "source_file": "nxs-files/Fe.nxs",
+      "space_group": "229",
+      "lattice": {
+        "a": 2.866,
+        "b": 2.866,
+        "c": 2.866,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Fe",
+          "b_coherent_fm": 9.45,
+          "sigma_incoherent_barn": 0.4,
+          "sigma_absorption_2200_barn": 2.56,
+          "molar_mass_g_mol": 55.85,
+          "debye_temperature_k": 464.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Fe_gamma",
+      "name": "Fe gamma",
+      "formula": "Fe",
+      "category": "example",
+      "source_file": "nxs-files/Fe_gamma.nxs",
+      "space_group": "225",
+      "lattice": {
+        "a": 3.587,
+        "b": 3.587,
+        "c": 3.587,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Fe",
+          "b_coherent_fm": 9.45,
+          "sigma_incoherent_barn": 0.4,
+          "sigma_absorption_2200_barn": 2.56,
+          "molar_mass_g_mol": 55.85,
+          "debye_temperature_k": 464.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Martensite",
+      "name": "Martensite",
+      "formula": "Fe",
+      "category": "example",
+      "source_file": "nxs-files/Martensite.nxs",
+      "space_group": "139",
+      "lattice": {
+        "a": 2.856,
+        "b": 2.856,
+        "c": 2.96,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Fe",
+          "b_coherent_fm": 9.45,
+          "sigma_incoherent_barn": 0.4,
+          "sigma_absorption_2200_barn": 2.56,
+          "molar_mass_g_mol": 55.85,
+          "debye_temperature_k": 464.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 4
+    },
+    {
+      "id": "Mg_example",
+      "name": "Mg",
+      "formula": "Mg",
+      "category": "example",
+      "source_file": "nxs-files/Mg.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 3.209,
+        "b": 0.0,
+        "c": 5.211,
+        "alpha": 0.0,
+        "beta": 0.0,
+        "gamma": 0.0
+      },
+      "atoms": [
+        {
+          "label": "Mg",
+          "b_coherent_fm": 5.375,
+          "sigma_incoherent_barn": 0.08,
+          "sigma_absorption_2200_barn": 0.063,
+          "molar_mass_g_mol": 24.31,
+          "debye_temperature_k": 400.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "Na_example",
+      "name": "Na",
+      "formula": "Na",
+      "category": "example",
+      "source_file": "nxs-files/Na.nxs",
+      "space_group": "225",
+      "lattice": {
+        "a": 5.64,
+        "b": 0.0,
+        "c": 0.0,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "Na",
+          "b_coherent_fm": 3.63,
+          "sigma_incoherent_barn": 1.62,
+          "sigma_absorption_2200_barn": 0.53,
+          "molar_mass_g_mol": 22.99,
+          "debye_temperature_k": 158.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "NaCl",
+      "name": "NaCl",
+      "formula": "NaCl",
+      "category": "example",
+      "source_file": "nxs-files/NaCl.nxs",
+      "space_group": "225",
+      "lattice": {
+        "a": 5.64,
+        "b": 0.0,
+        "c": 4.95,
+        "alpha": 0.0,
+        "beta": 0.0,
+        "gamma": 0.0
+      },
+      "atoms": [
+        {
+          "label": "Na",
+          "b_coherent_fm": 3.63,
+          "sigma_incoherent_barn": 1.62,
+          "sigma_absorption_2200_barn": 0.53,
+          "molar_mass_g_mol": 22.99,
+          "debye_temperature_k": 158.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ]
+          ]
+        },
+        {
+          "label": "Cl",
+          "b_coherent_fm": 9.577,
+          "sigma_incoherent_barn": 5.3,
+          "sigma_absorption_2200_barn": 33.5,
+          "molar_mass_g_mol": 35.45,
+          "debye_temperature_k": 300.0,
+          "x": 0.5,
+          "y": 0.5,
+          "z": 0.5,
+          "positions": [
+            [
+              0.5,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0,
+              0
+            ],
+            [
+              0,
+              0.5,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "SiO2_hex",
+      "name": "SiO2 hex",
+      "formula": "OSi",
+      "category": "example",
+      "source_file": "nxs-files/SiO2_hex.nxs",
+      "space_group": "180",
+      "lattice": {
+        "a": 4.912,
+        "b": 0.0,
+        "c": 5.404,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atoms": [
+        {
+          "label": "O",
+          "b_coherent_fm": 5.803,
+          "sigma_incoherent_barn": 0.0008,
+          "sigma_absorption_2200_barn": 0.0002,
+          "molar_mass_g_mol": 15.9994,
+          "debye_temperature_k": 300.0,
+          "x": 0.4136,
+          "y": 0.2676,
+          "z": 0.7857,
+          "positions": [
+            [
+              0.4136,
+              0.2676,
+              0.7857
+            ],
+            [
+              0.146,
+              0.4136,
+              0.119033333333333
+            ],
+            [
+              0.7324,
+              0.146,
+              0.452366666666667
+            ],
+            [
+              0.5864,
+              0.7324,
+              0.7857
+            ],
+            [
+              0.854,
+              0.5864,
+              0.119033333333333
+            ],
+            [
+              0.2676,
+              0.854,
+              0.452366666666667
+            ],
+            [
+              0.146,
+              0.7324,
+              0.2143
+            ],
+            [
+              0.5864,
+              0.854,
+              0.547633333333333
+            ],
+            [
+              0.2676,
+              0.4136,
+              0.880966666666667
+            ],
+            [
+              0.7324,
+              0.5864,
+              0.880966666666667
+            ],
+            [
+              0.854,
+              0.2676,
+              0.2143
+            ],
+            [
+              0.4136,
+              0.146,
+              0.547633333333333
+            ]
+          ]
+        },
+        {
+          "label": "Si",
+          "b_coherent_fm": 4.1491,
+          "sigma_incoherent_barn": 0.004,
+          "sigma_absorption_2200_barn": 0.171,
+          "molar_mass_g_mol": 28.0855,
+          "debye_temperature_k": 645.0,
+          "x": 0.4704,
+          "y": 0.0,
+          "z": 0.666666,
+          "positions": [
+            [
+              0.4704,
+              0,
+              0.666666
+            ],
+            [
+              0.4704,
+              0.4704,
+              0.999999333333333
+            ],
+            [
+              0,
+              0.4704,
+              0.333332666666667
+            ],
+            [
+              0.5296,
+              0,
+              0.666666
+            ],
+            [
+              0.5296,
+              0.5296,
+              0.999999333333333
+            ],
+            [
+              0,
+              0.5296,
+              0.333332666666667
+            ],
+            [
+              0.4704,
+              0,
+              0.333334
+            ],
+            [
+              0.5296,
+              0.5296,
+              0.666667333333333
+            ],
+            [
+              0,
+              0.4704,
+              6.6666666664883e-07
+            ],
+            [
+              0,
+              0.5296,
+              6.6666666664883e-07
+            ],
+            [
+              0.5296,
+              0,
+              0.333334
+            ],
+            [
+              0.4704,
+              0.4704,
+              0.666667333333333
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    },
+    {
+      "id": "V_example",
+      "name": "V",
+      "formula": "V",
+      "category": "example",
+      "source_file": "nxs-files/V.nxs",
+      "space_group": "229",
+      "lattice": {
+        "a": 3.03,
+        "b": 3.03,
+        "c": 3.03,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atoms": [
+        {
+          "label": "V",
+          "b_coherent_fm": -0.382,
+          "sigma_incoherent_barn": 5.08,
+          "sigma_absorption_2200_barn": 5.08,
+          "molar_mass_g_mol": 50.941,
+          "debye_temperature_k": 380.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 7
+    },
+    {
+      "id": "Zn_example",
+      "name": "Zn",
+      "formula": "Zn",
+      "category": "example",
+      "source_file": "nxs-files/Zn.nxs",
+      "space_group": "194",
+      "lattice": {
+        "a": 2.66,
+        "b": 0.0,
+        "c": 4.95,
+        "alpha": 0.0,
+        "beta": 0.0,
+        "gamma": 0.0
+      },
+      "atoms": [
+        {
+          "label": "Zn",
+          "b_coherent_fm": 5.68,
+          "sigma_incoherent_barn": 0.077,
+          "sigma_absorption_2200_barn": 1.107,
+          "molar_mass_g_mol": 65.39,
+          "debye_temperature_k": 300.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "positions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "crystal_system_nxs": 6
+    }
+  ]
+}
