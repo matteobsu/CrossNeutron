@@ -122,11 +122,23 @@ def calculate_cross_sections(
     series: list[dict[str, Any]] = []
     material_summaries: list[dict[str, Any]] = []
 
-    for material in materials:
-        prepared = _prepare_material(material, temperature_k, max_hkl)
-        curves = _calculate_prepared_material(prepared, wavelength)
+        for material in materials:
+        prepared = _prepare_material(
+            material,
+            temperature_k,
+            max_hkl,
+        )
 
-        density_override = getattr(material, "density_override_g_cm3", None)
+        curves = _calculate_prepared_material(
+            prepared,
+            wavelength,
+        )
+
+        density_override = getattr(
+            material,
+            "density_override_g_cm3",
+            None,
+        )
 
         effective_density_g_cm3 = (
             float(density_override)
@@ -155,9 +167,33 @@ def calculate_cross_sections(
                 "material_id": prepared.material_id,
                 "material_name": prepared.name,
                 "component": component,
-                "name": f"{prepared.name} - {_component_label(component)}",
+                "name": (
+                    f"{prepared.name} - "
+                    f"{_component_label(component)}"
+                ),
                 "values_barn": values_barn.tolist(),
                 "values_cm_inv": values_cm_inv.tolist(),
+            })
+
+        material_summaries.append({
+            "id": prepared.material_id,
+            "name": prepared.name,
+            "formula": prepared.formula,
+            "space_group": prepared.space_group,
+            "temperature_k": temperature_k,
+            "max_hkl": max_hkl,
+            "n_atoms_unit_cell": prepared.n_atoms_unit_cell,
+            "volume_a3": prepared.volume_a3,
+            "mass_g_mol_unit_cell":
+                prepared.mass_g_mol_unit_cell,
+            "calculated_density_g_cm3":
+                prepared.density_g_cm3,
+            "density_g_cm3":
+                effective_density_g_cm3,
+            "avg_sigma_coherent_barn":
+                prepared.avg_sigma_coherent_barn,
+            "avg_sigma_incoherent_barn":
+                prepared.avg_sigma_incoherent_barn,
     })
 
     return {

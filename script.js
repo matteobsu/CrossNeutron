@@ -642,10 +642,6 @@ function renderPlot(result) {
     yMode === "attenuation";
 
 
-  const energyMode =
-    mode === "energy";
-
-
   const rawX =
     energyMode
       ? result.axes.energy_mev
