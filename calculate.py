@@ -122,7 +122,7 @@ def calculate_cross_sections(
     series: list[dict[str, Any]] = []
     material_summaries: list[dict[str, Any]] = []
 
-        for material in materials:
+    for material in materials:
         prepared = _prepare_material(
             material,
             temperature_k,
