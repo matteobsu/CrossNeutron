@@ -665,6 +665,81 @@ function renderPlot(result) {
       : "σ: %{y:.5g} barn";
 
 
+    /*
+   * One colour per material.
+   * Components of the same material use different dash styles.
+   */
+
+  const materialColors = [
+    "#1f77b4",
+    "#ff7f0e",
+    "#2ca02c",
+    "#d62728",
+    "#9467bd",
+    "#8c564b",
+    "#e377c2",
+    "#7f7f7f",
+    "#bcbd22",
+    "#17becf"
+  ];
+
+
+  const materialColorMap =
+    new Map();
+
+
+  let nextColorIndex = 0;
+
+
+  result.series.forEach(series => {
+
+    if (
+      !materialColorMap.has(
+        series.material_id
+      )
+    ) {
+
+      materialColorMap.set(
+        series.material_id,
+        materialColors[
+          nextColorIndex %
+          materialColors.length
+        ]
+      );
+
+      nextColorIndex++;
+
+    }
+
+  });
+
+
+  const dashStyles = {
+
+    total:
+      "solid",
+
+    coherent_elastic:
+      "dash",
+
+    incoherent_elastic:
+      "dot",
+
+    coherent_inelastic:
+      "dashdot",
+
+    incoherent_inelastic:
+      "longdash",
+
+    total_inelastic:
+      "longdashdot",
+
+    absorption:
+      "2px,3px,8px,3px"
+
+  };
+
+
   const traces =
     result.series.map(series => {
 
@@ -706,6 +781,25 @@ function renderPlot(result) {
 
         name:
           series.name,
+
+        line: {
+
+          color:
+            materialColorMap.get(
+              series.material_id
+            ),
+
+          dash:
+            dashStyles[
+              series.component
+            ] || "solid",
+
+          width:
+            series.component === "total"
+              ? 3
+              : 2
+
+        },
 
         hovertemplate:
 
