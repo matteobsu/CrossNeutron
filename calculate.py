@@ -126,35 +126,39 @@ def calculate_cross_sections(
         prepared = _prepare_material(material, temperature_k, max_hkl)
         curves = _calculate_prepared_material(prepared, wavelength)
 
+        density_override = getattr(material, "density_override_g_cm3", None)
+
+        effective_density_g_cm3 = (
+            float(density_override)
+            if density_override is not None
+            else prepared.density_g_cm3
+        )
+
+        # Number of crystallographic unit cells per cm^3
+        unit_cells_per_cm3 = (
+            effective_density_g_cm3
+            * AVOGADRO
+            / prepared.mass_g_mol_unit_cell
+        )
+
         for component in requested:
+
+            values_barn = curves[component]
+
+            values_cm_inv = (
+                values_barn
+                * unit_cells_per_cm3
+                * 1.0e-24
+            )
+
             series.append({
                 "material_id": prepared.material_id,
                 "material_name": prepared.name,
                 "component": component,
                 "name": f"{prepared.name} - {_component_label(component)}",
-                "values_barn": curves[component].tolist(),
-            })
-
-        density_override = getattr(material, "density_override_g_cm3", None)
-        material_summaries.append({
-            "id": prepared.material_id,
-            "name": prepared.name,
-            "formula": prepared.formula,
-            "space_group": prepared.space_group,
-            "temperature_k": temperature_k,
-            "max_hkl": max_hkl,
-            "n_atoms_unit_cell": prepared.n_atoms_unit_cell,
-            "volume_a3": prepared.volume_a3,
-            "mass_g_mol_unit_cell": prepared.mass_g_mol_unit_cell,
-            "calculated_density_g_cm3": prepared.density_g_cm3,
-            "density_g_cm3": (
-                float(density_override)
-                if density_override is not None
-                else prepared.density_g_cm3
-            ),
-            "avg_sigma_coherent_barn": prepared.avg_sigma_coherent_barn,
-            "avg_sigma_incoherent_barn": prepared.avg_sigma_incoherent_barn,
-        })
+                "values_barn": values_barn.tolist(),
+                "values_cm_inv": values_cm_inv.tolist(),
+    })
 
     return {
         "engine": {

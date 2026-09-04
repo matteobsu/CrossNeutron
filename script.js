@@ -62,6 +62,20 @@ function bindControls() {
 
     });
 
+  document
+  .querySelectorAll('input[name="yAxis"]')
+  .forEach(radio => {
+
+    radio.addEventListener("change", () => {
+
+      if (latestResult) {
+        renderPlot(latestResult);
+      }
+
+    });
+
+  });  
+
 }
 
 
@@ -554,6 +568,16 @@ function getXAxisMode() {
 
 }
 
+function getYAxisMode() {
+
+  return (
+    document.querySelector(
+      'input[name="yAxis"]:checked'
+    )?.value
+    || "attenuation"
+  );
+
+}
 
 function initializeEmptyPlot() {
 
@@ -570,7 +594,7 @@ function initializeEmptyPlot() {
       },
 
       yaxis: {
-        title: "Cross section σ [barn]"
+        title: "Linear attenuation coefficient μ [cm⁻¹]"
       },
 
       annotations: [
@@ -606,6 +630,18 @@ function renderPlot(result) {
     getXAxisMode();
 
 
+  const yMode =
+    getYAxisMode();
+
+
+  const energyMode =
+    mode === "energy";
+
+
+  const attenuationMode =
+    yMode === "attenuation";
+
+
   const energyMode =
     mode === "energy";
 
@@ -621,6 +657,17 @@ function renderPlot(result) {
       ? "Neutron energy E [meV]"
       : "Wavelength λ [Å]";
 
+  const yTitle =
+    attenuationMode
+      ? "Linear attenuation coefficient μ [cm⁻¹]"
+      : "Cross section σ [barn]";
+
+
+  const yHoverLabel =
+    attenuationMode
+      ? "μ: %{y:.5g} cm⁻¹"
+      : "σ: %{y:.5g} barn";
+
 
   const traces =
     result.series.map(series => {
@@ -629,7 +676,9 @@ function renderPlot(result) {
         rawX;
 
       let y =
-        series.values_barn;
+        attenuationMode
+          ? series.values_cm_inv
+          : series.values_barn;
 
 
       /*
@@ -665,7 +714,7 @@ function renderPlot(result) {
         hovertemplate:
 
           `${xTitle}: %{x:.5g}<br>` +
-          `σ: %{y:.5g} barn` +
+          yHoverLabel +
           "<extra>%{fullData.name}</extra>"
 
       };
@@ -701,7 +750,7 @@ function renderPlot(result) {
       yaxis: {
 
         title:
-          "Cross section σ [barn]",
+          yTitle,
 
         rangemode:
           "tozero",
@@ -886,6 +935,21 @@ function exportCSV() {
 
   }
 
+  const attenuationMode =
+    getYAxisMode() === "attenuation";
+
+
+  const unitLabel =
+    attenuationMode
+      ? "cm^-1"
+      : "barn";
+
+
+  const valueKey =
+    attenuationMode
+      ? "values_cm_inv"
+      : "values_barn";
+
 
   const headers = [
 
@@ -895,7 +959,7 @@ function exportCSV() {
 
     ...latestResult.series.map(
       series =>
-        `${series.name} [barn]`
+        `${series.name} [${unitLabel}]`
     )
 
   ];
@@ -930,7 +994,7 @@ function exportCSV() {
         .series
         .map(
           series =>
-            series.values_barn[index]
+            series[valueKey][index]
         )
 
     ]);
@@ -984,7 +1048,9 @@ function exportCSV() {
     URL.createObjectURL(blob);
 
   link.download =
-    "neutron_cross_sections.csv";
+    attenuationMode
+      ? "neutron_linear_attenuation.csv"
+      : "neutron_cross_sections.csv";
 
 
   document.body.appendChild(

@@ -666,6 +666,14 @@ button:disabled {
   margin-bottom: 0;
 }
 
+.plot-controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
 .axis-selector {
   display: flex;
   align-items: center;

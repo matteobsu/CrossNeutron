@@ -252,8 +252,7 @@
           <input
             id="componentCoherentElastic"
             type="checkbox"
-            value="coherent_elastic"
-            checked
+            value="coherent_elastic"            
           >
 
           <span>
@@ -328,8 +327,7 @@
           <input
             id="componentAbsorption"
             type="checkbox"
-            value="absorption"
-            checked
+            value="absorption"            
           >
 
           <span>
@@ -397,44 +395,84 @@
         <div>
 
           <h2>
-            Neutron cross sections
+            Neutron attenuation and cross sections
           </h2>
 
         </div>
 
 
-        <div class="axis-selector">
+        <div class="plot-controls">
 
-          <span>
-            X axis:
-          </span>
+          <div class="axis-selector">
 
-
-          <label>
-
-            <input
-              type="radio"
-              name="xAxis"
-              value="wavelength"
-              checked
-            >
-
-            Wavelength
-
-          </label>
+            <span>
+              X axis:
+            </span>
 
 
-          <label>
+            <label>
 
-            <input
-              type="radio"
-              name="xAxis"
-              value="energy"
-            >
+              <input
+                type="radio"
+                name="xAxis"
+                value="wavelength"
+                checked
+              >
 
-            Energy
+              Wavelength
 
-          </label>
+            </label>
+
+
+            <label>
+
+              <input
+                type="radio"
+                name="xAxis"
+                value="energy"
+              >
+
+              Energy
+
+            </label>
+
+          </div>
+
+
+          <div class="axis-selector">
+
+            <span>
+              Y axis:
+            </span>
+
+
+            <label>
+
+              <input
+                type="radio"
+                name="yAxis"
+                value="attenuation"
+                checked
+              >
+
+              Attenuation μ
+
+            </label>
+
+
+            <label>
+
+              <input
+                type="radio"
+                name="yAxis"
+                value="cross_section"
+              >
+
+              Cross section σ
+
+            </label>
+
+          </div>
 
         </div>
 
@@ -561,7 +599,7 @@
     <footer>
 
       <p>
-        BeamMatter — neutron cross section calculation and plotting tool
+        CrossNeutron - Neutron attenuation and cross section plotter
       </p>
 
     </footer>
